@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@Layer components {
+    .botonPersonalizado {
+        @apply flex justify-center items-center bg-red-500 p-6 text-white font-bold border-2 border-red-600 text-4xl;
+    }
+}
